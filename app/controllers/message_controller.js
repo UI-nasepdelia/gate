@@ -67,7 +67,7 @@ exports.sendBulkMessage = async (req, res, next) => {
       });
       await whatsapp.createDelay(delay ?? 5000);
     }
-    console.log("PESAN BLAST BERHASIL DIKIRIM - POWERED BY CIPZZ GATEWAY");
+    console.log("PESAN BLAST BERHASIL DIKIRIM");
   } catch (error) {
     next(error);
   }
